@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color: rgb(223, 173, 218);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px rgb(159, 156, 156);
+}
+#main-image{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 80px;
+    width: 80%;
+    background-color : #72a6cd;
+    color: white;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color : rgb(70, 139, 219);
+    color: #e7e9f1;
+    border: 2px solid #3937cc;
+}
